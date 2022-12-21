@@ -1,0 +1,119 @@
+ /* reset css  */
+ @import url("reset.css");
+
+ /* font css */
+ @import url("../font/Proxima-Nova/stylesheet.css");
+
+ /* up-button style */
+ @import url("up-button-style.css");
+
+ /* header style */
+ @import url("header.css");
+
+ /* price style */
+ @import url("price.css");
+
+ /* face__cleaning style */
+ @import url("face__cleaning.css");
+
+ /* questions style */
+ @import url("questions.css");
+
+ /* instagram__gallery style */
+ @import url("instagram__gallery.css");
+
+ /* cosmetic style */
+ @import url("cosmetic.css");
+
+ /* contacts style */
+ @import url("contacts.css");
+
+ /* hamburger menu style */
+ @import url("burger-menu.css");
+
+ /* adaptiv style */
+ @import url("adaptiv.css");
+
+ body {
+     background : white;
+     font-size  : 16px;
+     color      : black;
+     font-family: 'Proxima Nova Rg';
+     font-weight: normal;
+     font-style : normal;
+     position   : relative;
+ }
+
+ .grid__wrapper {
+     min-height           : 100vh;
+     display              : grid;
+     grid-template-rows   : auto 1fr auto;
+     grid-template-columns: minmax(100px, auto);
+ }
+
+ .container {
+     max-width    : 1200px;
+     margin-left  : auto;
+     margin-right : auto;
+     padding-left : 15px;
+     padding-right: 15px;
+     position     : relative;
+ }
+
+ a {
+     color          : black;
+     transition     : all 0.3s linear;
+     text-decoration: none;
+ }
+
+ a:hover {
+     color: #ff83a4;
+ }
+
+ h1 {
+     font-weight  : 500;
+     font-style   : normal;
+     text-align   : center;
+     font-size    : 32px;
+     margin-bottom: 5px;
+     line-height  : 28px;
+ }
+
+ h1 span {
+     background             : radial-gradient(rgba(235, 175, 200, 1) 0%, rgba(191, 97, 97, 0.8715861344537815) 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ h3 {
+     text-align   : center;
+     margin-bottom: 40px;
+     font-size    : 18px;
+ }
+
+ header,
+ .price,
+ .instagram__grallery,
+ .contacts {
+     background: linear-gradient(90deg, rgba(255, 218, 228, 1) 0%, rgba(235, 235, 235, 1) 100%);
+ }
+
+
+
+ /* footer style start */
+
+ .footer {
+     background-color: #FFF0F4;
+ }
+
+ .footer__wrapper {
+     display    : flex;
+     align-items: center;
+ }
+
+ .footer__wrapper p:nth-child(2) {
+     font-size  : 24px;
+     font-weight: 600;
+ }
+
+ /* footer style end */

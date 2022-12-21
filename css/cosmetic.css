@@ -1,0 +1,44 @@
+@import url("owl.style.css");
+@import url("owl.carousel.min.css");
+
+/* cosmetic style start */
+
+.cosmetic {
+	padding-top        : 60px;
+	padding-bottom     : 60px;
+	background-image   : url(../images/cosmetic/cosmetic.jpg);
+	background-size    : 14%;
+	background-repeat  : no-repeat;
+	background-position: right bottom;
+	position           : relative;
+}
+
+.owl-carousel {
+	position: relative;
+}
+
+.gallery__card {
+	overflow           : hidden;
+	position           : relative;
+	color              : #ffffff;
+	transition         : all .2s;
+	transform          : scale(0.9);
+	height             : 200px;
+	width              : 100%;
+	background         : url(../images/cosmetic/1.jpg);
+	background-position: center;
+	background-size    : cover;
+}
+
+.gallery__card:hover {
+	transform: scale(1);
+}
+
+.gallery__card img {
+	width        : 100%;
+	height       : 100%;
+	border-radius: 20px;
+	object-fit   : cover;
+}
+
+/* cosmetic style end */

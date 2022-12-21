@@ -1,0 +1,113 @@
+/* Price style start */
+
+.price {
+	font-size     : 18px;
+	padding-top   : 60px;
+	padding-bottom: 60px;
+	font-family   : 'Roboto', sans-serif;
+	font-weight   : 400;
+}
+
+.price__table {
+	margin-bottom: 60px;
+}
+
+.price__row-name div {
+	font-weight: 600;
+}
+
+.price__info-wrapper {
+	box-shadow   : 0px 1px 25px 0px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+
+.price__row-name {
+	display              : grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows   : 1fr;
+	font-size            : 16px;
+	color                : black;
+	margin-bottom        : 40px;
+}
+
+.switch__button {
+	display        : flex;
+	align-items    : center;
+	justify-content: center;
+}
+
+.price__row-name div {
+	border       : 1px transparent solid;
+	text-align   : center;
+	padding      : 20px;
+	border-radius: 10px;
+	margin       : 5px;
+	box-shadow   : 0px 1px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+.price__row-info {
+	display              : grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows   : 1fr;
+	font-size            : 16px;
+	color                : black;
+	background-color     : transparent;
+}
+
+.price__row-info div {
+	text-align     : center;
+	padding        : 12px;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+}
+
+.price__row-info:nth-child(2n) {
+	background: #ffbdcf;
+}
+
+.depilation__button,
+.clear__button,
+.massage__button,
+.peeling__button,
+.combined__button {
+	display: none;
+}
+
+.depilation__button.active,
+.clear__button.active,
+.massage__button.active,
+.peeling__button.active,
+.combined__button.active {
+	display: block;
+}
+
+.switch__button {
+	font-style : normal;
+	font-weight: normal;
+	cursor     : pointer;
+	opacity    : 1;
+	position   : relative;
+	transition : .5s ease-out;
+}
+
+.switch__button:hover {
+	background: #ff97b3;
+	color     : white;
+}
+
+.switch__button.active {
+	background: #ff97b3;
+	color     : white;
+}
+
+.price__button,
+.instagram__button {
+	text-align: center;
+}
+
+.price__info-kompleks {
+	font-weight: 700;
+}
+
+/* Price style end */

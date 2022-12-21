@@ -1,0 +1,74 @@
+/* instagram__grallery style start */
+
+.instagram__grallery {
+	background-color: #FFF0F4;
+	padding-top     : 60px;
+	padding-bottom  : 60px;
+}
+
+.instagram__grallery-title {
+	max-width   : 800px;
+	margin-right: auto;
+	margin-left : auto;
+}
+
+.instagram__grid-item {
+	position  : relative;
+	box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.instagram__grid-item img,
+.cosmetic__grid-item img {
+	width     : 100%;
+	height    : 100%;
+	object-fit: cover;
+	position  : absolute;
+	top       : 0;
+	left      : 0;
+}
+
+.instagram__grid-item::after {
+	content         : '';
+	position        : absolute;
+	width           : 100%;
+	height          : 100%;
+	background-color: black;
+	opacity         : 0.2;
+	transition      : opacity 0.2s ease-in-out;
+}
+
+.instagram__grid-item:hover {
+	transform: scale(1.05);
+}
+
+.instagram__grid-item:hover:after {
+	opacity: 0;
+}
+
+.instagram__grid {
+	display              : grid;
+	grid-gap             : 10px;
+	grid-auto-rows       : 100px;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	grid-auto-flow       : row dense;
+	margin-bottom        : 60px;
+}
+
+.item--small {
+	grid-row-end: span 1;
+}
+
+.item--medium {
+	grid-row-end: span 3;
+}
+
+.item--large {
+	grid-row-end: span 4;
+}
+
+.instagram__grallery-button {
+	text-align : center;
+	align-items: center;
+}
+
+/* instagram__grallery style end */

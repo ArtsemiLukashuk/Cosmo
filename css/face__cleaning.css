@@ -1,0 +1,85 @@
+/* face__cleaning style start */
+
+.face__cleaning {
+	padding-top        : 60px;
+	padding-bottom     : 60px;
+	background-image   : url(../images/cosmetic/face-bg.jpg);
+	background-size    : 14%;
+	background-repeat  : no-repeat;
+	background-position: right bottom;
+}
+
+.face__cleaning-wrapper {
+	display        : flex;
+	justify-content: center;
+}
+
+.face__cleaning-text {
+	display        : flex;
+	flex-direction : column;
+	justify-content: space-around;
+	font-style     : 18px;
+	width          : 300px;
+}
+
+.face__cleaning-text p {
+	display    : flex;
+	align-items: center;
+}
+
+.face__cleaning-left p {
+	justify-content: flex-end;
+}
+
+.face__cleaning-right p {
+	justify-content: flex-start;
+}
+
+.face__cleaning-pic img {
+	width        : 100%;
+	border-radius: 50px;
+	padding-left : 20px;
+	padding-right: 20px;
+}
+
+.face__cleaning-pic {
+	max-width: 400px;
+	order    : 2;
+}
+
+.face__cleaning-left {
+	order: 1;
+}
+
+
+.face__cleaning-right {
+	order: 3;
+}
+
+.face__circle {
+	border-radius  : 50%;
+	background     : transparent;
+	width          : 20px;
+	height         : 20px;
+	display        : flex;
+	justify-content: center;
+	margin-left    : 5px;
+	margin-right   : 5px;
+	border         : 1px solid #ff97b3;
+}
+
+.face__circle::before {
+	content      : '';
+	display      : block;
+	border-radius: 50%;
+	background   : #ff97b3;
+	width        : 10px;
+	height       : 10px;
+	align-self   : center;
+}
+
+.face__circle-before {
+	display: none;
+}
+
+/* face__cleaning style end */
