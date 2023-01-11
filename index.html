@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLLY | Косметология</title>
+    <link rel="stylesheet" type="text/css" href="css/wow.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="grid__wrapper">
+        <!--******************** Header star ********************-->
+        <header class="header wow fadeInLeft" data-wow-delay=".3s">
+            <div class="container">
+                <div class="header__wrapper">
+                    <a href="#!" class="header__logo">
+                        <p>OLLY</p>
+                        <span>косметология</span>
+                    </a>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="#price" class="header__link">Мои услуги</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#questions" class="header__link">Вопросы</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#instagram" class="header__link">Instagram</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#cosmetic" class="header__link">Косметика</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#contacts" class="header__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header__text-wrapper container">
+                <div class="header__left-wrapper">
+                    <span>
+                        <p><img src="../OLLY/images/rose.jpg" alt="orig">Меня зовут<br> Сакович Ольга</p>
+                    </span>
+                    <p><i class="fa fa-check" aria-hidden="true"></i> Медицинское образование</p>
+                    <p><i class="fa fa-check" aria-hidden="true"></i> 4 года опыта за плечами</p>
+                    <p><i class="fa fa-check" aria-hidden="true"></i> Сделаю вашу кожу идеальной</p>
+                    <p><i class="fa fa-check" aria-hidden="true"></i> Подберу персональный уход</p>
+                    <p><i class="fa fa-check" aria-hidden="true"></i> Индивидуальный подход к каждому клиенту</p>
+                    <a target="_blank" href="https://feelqueen.by/profile/71220" class="header__text-button">Записаться
+                        онлайн</a>
+                </div>
+                <div class="header__right-wrapper">
+                    <div class="header__pic"><img src="../OLLY/images/olga.jpg" alt="photo-olga"></div>
+                </div>
+            </div>
+        </header>
+        <!--******************** Header end ********************-->
+
+        <main>
+            <section class="face__cleaning wow fadeInLeft" data-wow-delay=".3s">
+                <h1 class="face__title">Когда вам нужна<span> чистка лица</span></h1>
+                <h3 class="face__subtitle"></h3>
+                <div class="face__cleaning-wrapper">
+                    <div class="face__cleaning-text face__cleaning-left">
+                        <p class="wow bounceInLeft" data-wow-duration="1s">
+                            <span class="face__circle face__circle-before"></span>
+                            Закрытые и открытые<br> комедоны (черные точки)
+                            <span class="face__circle face__circle-after"></span>
+                        </p>
+                        <p class="wow bounceInLeft" data-wow-duration="2s">
+                            <span class="face__circle face__circle-before"></span>
+                            Жирная, пористая кожа
+                            <span class="face__circle face__circle-after"></span>
+                        </p>
+                        <p class="wow bounceInLeft" data-wow-duration="3s">
+                            <span class="face__circle face__circle-before"></span>
+                            Прыщи, углевая сыпь
+                            <span class="face__circle face__circle-after"></span>
+                        </p>
+                    </div>
+                    <div class="face__cleaning-pic">
+                        <img src="../OLLY/images/face__cleaning-pic.jpg" alt="face-photo">
+                    </div>
+                    <div class="face__cleaning-text face__cleaning-right">
+                        <p class="wow bounceInRight" data-wow-duration="1s">
+                            <span class="face__circle"></span>
+                            Загрязненные и расширенные поры
+                        </p>
+                        <p class="wow bounceInRight" data-wow-duration="2s">
+                            <span class="face__circle"></span>
+                            Жировики, милиумы (белые угри)
+                        </p>
+                        <p class="wow bounceInRight" data-wow-duration="3s">
+                            <span class="face__circle"></span>
+                            Сальные пробки
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="price" class="price wow fadeInLeft" data-wow-delay=".3s">
+                <h1 class="price__title">Сколько стоят<span> мои услуги</span></h1>
+                <h3 class="price__subtite">Мои цены приятно вас удивят</h3>
+                <div class="container">
+                    <div class="price__table">
+                        <div class="price__row-name">
+                            <div class="switch__button active" id="buttonClear">Консультация</div>
+                            <div class="switch__button" id="buttonPeeling">Чистка лица</div>
+                            <div class="switch__button" id="buttonDepilation">Пилинги</div>
+                            <div class="switch__button" id="buttonСombined">Программы по уходу<br> за лицом</div>
+                            <div class="switch__button" id="buttonMassage">Аппаратная косметология</div>
+                        </div>
+                        <!-- DEPILATION BUTTON start -->
+                        <div class="price__info-wrapper depilation__button" id="DepilationWrapper">
+                            <div class="price__row-info">
+                                <div>Молочный «Nutri peptide», GIGI</div>
+                                <div>30 мин</div>
+                                <div>50 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Миндально-салициловый «Ester C», GIGI</div>
+                                <div>30 мин</div>
+                                <div>55 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Anti-Acne «Acnon», GIGI</div>
+                                <div>30 мин</div>
+                                <div>55 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Пилинг для жирной и проблемной кожи «Post repair», GIGI</div>
+                                <div>35 мин</div>
+                                <div>60 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Пилинг для осветления пигментации «Whitening peel», GIGI</div>
+                                <div>35 мин</div>
+                                <div>60 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Пилинг «Дерма Пил» Medic Peel, GIGI</div>
+                                <div>35 мин</div>
+                                <div>65 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Пилинг «Retin A», GIGI</div>
+                                <div>35 мин</div>
+                                <div>65 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Пилинг Азелаиновый «Azelac», Medi+Derma</div>
+                                <div>30-45 мин</div>
+                                <div>70 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Химический пилинг с салициловой кислотой «SALIPEEL S», Medi+Derma</div>
+                                <div>30-45 мин</div>
+                                <div>75 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Химический пилинг «Джесснера», Medi+Derma</div>
+                                <div>30-45 мин</div>
+                                <div>80 BYN</div>
+                            </div>
+                        </div>
+                        <!-- DEPILATION BUTTON end -->
+                        <!-- CLEAR BUTTON start -->
+                        <div class="price__info-wrapper clear__button active" id="ClearWrapper">
+                            <div class="price__row-info">
+                                <div>Первичная консультация</div>
+                                <div>25-25 мин</div>
+                                <div>10 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Консультация (в день процедуры)</div>
+                                <div>25-25 мин</div>
+                                <div>Бесплатно</div>
+                            </div>
+                        </div>
+                        <!-- CLEAR BUTTON end -->
+                        <!-- MASSAGE BUTTON start -->
+                        <div class="price__info-wrapper massage__button" id="MassageWrapper">
+                            <div class="price__row-info">
+                                <div>Фракционная мезотерапия лица «DermaPen»</div>
+                                <div>35-50 мин</div>
+                                <div>75-90 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Дарсонвализация спины</div>
+                                <div>10-15 мин</div>
+                                <div>15 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Дарсонвализация волос</div>
+                                <div>10 мин</div>
+                                <div>10 BYN</div>
+                            </div>
+                        </div>
+                        <!-- MASSAGE BUTTON end -->
+                        <!-- PEELING BUTTON start -->
+                        <div class="price__info-wrapper peeling__button" id="PeelingWrapper">
+                            <div class="price__row-info">
+                                <div>Ультразвуковая чистка лица</div>
+                                <div>45 мин</div>
+                                <div>50 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Механическая чистка лица </div>
+                                <div>45-60 мин</div>
+                                <div>55 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Комбинированная чистка лица (механическая+ ультразвук)</div>
+                                <div>60-90 мин</div>
+                                <div>60 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Атравматическая чистка лица </div>
+                                <div>45-60 мин</div>
+                                <div>65 BYN</div>
+                            </div>
+                        </div>
+                        <!-- PEELING BUTTON end -->
+                        <!-- COMBINED BUTTON start -->
+                        <div class="price__info-wrapper combined__button" id="СombinedWrapper">
+                            <div class="price__row-info">
+                                <div>Индивидуальный подбор программы по типу кожи</div>
+                                <div>45-60 мин</div>
+                                <div>55-75 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Карбокситерапия «Carboxy CO2», GIGI</div>
+                                <div>45-60 мин</div>
+                                <div>80 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Массаж лица классический </div>
+                                <div>30 мин</div>
+                                <div>45 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Лечебный массаж лица по Жаке (щипковый)</div>
+                                <div>20 мин</div>
+                                <div>25 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Уход «Vip-Альгинат» (энзимный пилинг + альгинатная маска)</div>
+                                <div>40 мин</div>
+                                <div>30 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div></div>
+                                <div class="price__info-kompleks">Комплексы</div>
+                                <div></div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Ультразвуковая чистка лица + дарсонваль</div>
+                                <div>25-45 мин</div>
+                                <div>55 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Механическая чистка лица + дарсонваль</div>
+                                <div>35-55 мин</div>
+                                <div>60 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Классический массаж лица + альгинатная маска (по типу кожи) </div>
+                                <div>40-55 мин</div>
+                                <div>65 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Механическая чистка лица + кислотный коктейль + дарсонваль</div>
+                                <div>45-60 мин</div>
+                                <div>65 BYN</div>
+                            </div>
+                            <div class="price__row-info">
+                                <div>Комбинированная чистка лица (механическая + ультразвук + кислотный коктейль/пилинг)
+                                </div>
+                                <div>90 мин</div>
+                                <div>80 BYN</div>
+                            </div>
+                        </div>
+                        <!-- COMBINED BUTTON end -->
+                    </div>
+                    <div class="price__button">
+                        <a target="_blank" href="https://feelqueen.by/profile/71220"
+                            class="price__reg-button">Записаться онлайн</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="questions" class="questions wow fadeInLeft" data-wow-delay=".3s">
+                <div class="container">
+                    <h1 class="questions__title">Вопросы, которые <span>волнуют</span> <span>клиентов</span> чаще всего
+                    </h1>
+                    <div class="questions__button-wrapper">
+                        <div class="questions__left-wrapper">
+                            <button class="read-first-left" id="read-first-left">
+                                <div class="read__button-wrapper">
+                                    <div class="read__button-name"> Зачем нужна чистка лица?</div>
+                                    <div class="read__button-icon">
+                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <p class="read__button-text">Эта процедура в первую очередь — гигиенический уход за
+                                    кожей, и лишь во вторую —
+                                    эстетический, то есть улучшающий внешний вид.<br><br>
+                                    Во время процедуры чистки лица происходит:<br><br>
+                                    - отшелушивание верхних ороговевших слоёв кожи;<br>
+                                    - удаление угрей и черных точек;<br>
+                                    - кожа очищается от шлаков и токсинов;<br>
+                                    - восстанавливается защитная мантия кожи и Ph;<br>
+                                    - стимулируется обмен веществ и кровообращение.<br><br>
+                                    После чистки кожа начинает лучше дышать, а это значительно уменьшает количество
+                                    новых высыпаний и черных точек. Косметические препараты хорошо усваиваются. Кожа
+                                    выглядит более молодо, свежо, привлекательно, обретает лоск и сияние.<br><br>
+                                    Правильный уход за лицом обеспечит здоровье и красоту вашей кожи.
+
+                                </p>
+                            </button>
+                            <button class="read-midl-left" id="read-midl-left">
+                                <div class="read__button-wrapper">
+                                    <div class="read__button-name">Какие виды чистки бывают?</div>
+                                    <div class="read__button-icon">
+                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <p class="read__button-text">
+                                    - Механическая (по-другому – мануальная);<br><br>
+                                    это процедура, направленная на устранение закупорки пор, удаление загрязнений с
+                                    поверхности кожи, угрей, прыщей, сальных пробок, отшелушивание ороговевшего слоя
+                                    клеток - осуществляется вручную или с помощью ложки Уно.<br><br>
+                                    - Химическая (применяется пилинг с кислотами);<br><br>
+                                    Осуществляется с помощью различных кислот. После химической чистки удаляются
+                                    омертвевшие частички кожи и пробки в порах, выравнивается поверхность кожи,
+                                    улучшается цвет лица.<br><br>
+                                    - Аппаратная (с применением ультразвука).<br><br>
+                                    Ультразвуковая чистка лица обеспечивает деликатное удаление загрязнений с
+                                    поверхности кожи, не сопровождаясь при этом никакими болезненными ощущениями.
+
+                                </p>
+                            </button>
+                            <button class="read-last-left" id="read-last-left">
+                                <div class="read__button-wrapper">
+                                    <div class="read__button-name">Как часто можно делать химическую чистку лица?</div>
+                                    <div class="read__button-icon">
+                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <p class="read__button-text">Не реже 1 раза в месяц, но желательно каждые 1,5 - 2
+                                    недели.
+                                </p>
+                            </button>
+                        </div>
+                        <div class="questions__right-wrapper">
+                            <button class="read-first-right" id="read-first-right">
+                                <div class="read__button-wrapper">
+                                    <div class="read__button-name">Зачем нужен пилинг?</div>
+                                    <div class="read__button-icon">
+                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <p class="read__button-text">
+                                    Пилинг представляет собой процесс удаления с поверхности кожи ороговевших
+                                    частиц.<br><br>
+                                    Скопление ороговевших клеток приводит к утолщению рогового слоя эпидермиса -
+                                    гиперкератозу, который̆ виновен в появлении таких проблем как:<br><br>
+                                    ❌Чёрные точки;<br>
+                                    ❌Закупорка пор;<br>
+                                    ❌Тусклый цвет лица;<br>
+                                    ❌Замедление обновления эпидермиса.<br><br>
+                                    Чтобы вернуть коже здоровый и сияющий вид необходимо регулярное отшелушивание.
+                                </p>
+                            </button>
+                            <button class="read-midl-right" id="read-midl-right">
+                                <div class="read__button-wrapper">
+                                    <div class="read__button-name">Показания к проведению чистки лица?</div>
+                                    <div class="read__button-icon">
+                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <p class="read__button-text">
+                                    - повышенная сальность кожи;<br>
+                                    - расширенные поры;<br>
+                                    - комедоны;<br>
+                                    - угревая сыпь на стадии заживления;<br>
+                                    - снижение тонуса и ухудшение тургора кожного покрова;<br>
+                                    - неровный цвет лица;<br>
+                                    - увядающая кожа.<br>
+                                </p>
+                            </button>
+                            <button class="read-last-right" id="read-last-right">
+                                <div class="read__button-wrapper">
+                                    <div class="read__button-name">Какие процедуры разрешены беременным?</div>
+                                    <div class="read__button-icon">
+                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <p class="read__button-text">
+                                    Речь идет о комплексных косметических уходах, направленных на увлажнение, питание
+                                    кожи, а также на профилактику от высыпаний и отеков.<br><br>
+                                    - массаж лица (хорошо снимает отёчность, расслабляет мышцы, повышает тонус);<br>
+                                    - поверхностные пилинги (молочный, миндальный, энзимный), помогут запустить<br>
+                                    - процессы омоложения вашей̆ кожи;<br>
+                                    - поверхностная атравматическая чистка;<br>
+                                    - увлажняющие уходовые процедуры;<br>
+                                    - альгинатные маски.<br><br>
+                                    Беременность - не повод отказаться от ухода за собой!
+                                </p>
+                            </button>
+                        </div>
+                    </div>
+                    <h3 class="questions__subtitle">Приходите ко мне – я помогу сохранить красоту Вашей кожи!</h3>
+                </div>
+            </section>
+
+            <section id="instagram" class="instagram__grallery wow fadeInLeft" data-wow-delay=".3s">
+                <div class="container">
+                    <h1 class="instagram__grallery-title">Подписывайтесь на<span> Instagram</span>, чтобы не
+                        упустить
+                        последние акции и спецпредложения
+                    </h1>
+                    <h3 class="instagram__grallery-subtitle">Я делюсь полезной информацией и советами<br>по уходу за
+                        кожей</h3>
+                    <div class="instagram__grallery-wrapper">
+                        <div class="instagram__grid">
+                            <div class="instagram__grid-item item--large">
+                                <img src="../OLLY/images/instagram-photo/1.jpg" alt="my-instagram">
+                            </div>
+                            <div class="instagram__grid-item item--small">
+                                <img src="../OLLY/images/instagram-photo/2.jpg" alt="my-instagram">
+                            </div>
+                            <div class="instagram__grid-item item--large">
+                                <img src="../OLLY/images/instagram-photo/3.jpg" alt="my-instagram">
+                            </div>
+                            <div class="instagram__grid-item item--medium">
+                                <img src="../OLLY/images/instagram-photo/4.jpg" alt="my-instagram">
+                            </div>
+                            <div class="instagram__grid-item item--large">
+                                <img src="../OLLY/images/instagram-photo/5.jpg" alt="my-instagram">
+                            </div>
+                            <div class="instagram__grid-item item--medium">
+                                <img src="../OLLY/images/instagram-photo/6.jpg" alt="my-instagram">
+                            </div>
+                            <div class="instagram__grid-item item--small">
+                                <img src="../OLLY/images/instagram-photo/7.jpg" alt="my-instagram">
+                            </div>
+                        </div>
+                        <div class="instagram__button">
+                            <a target="_blank"
+                                href="https://www.instagram.com/cosmetolog_minsk_olga/?igshid=ekxzruaz5k7f"
+                                class="instagram__grallery-button"><i class="fa fa-instagram" aria-hidden="true"></i>
+                                Перейти в instagram</a>
+                        </div>
+                    </div>
+            </section>
+            <section id="cosmetic" class="cosmetic wow fadeInLeft" data-wow-delay=".3s">
+                <div class="container">
+                    <h1 class="cosmetic__title"><span>Косметика</span> на которой я работаю</h1>
+                    <h3 class="cosmetic__subtitle">Работаю только с профессиональными средства</h3>
+                    <div id="owl-carousel">
+                        <div class="owl-carousel">
+                            <div class="carousel-item">
+                                <div class="gallery__card">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="gallery__card">
+                                    <img src="images/cosmetic/3.jpg" alt="we-open-pic">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="gallery__card">
+                                    <img src="images/cosmetic/4.jpg" alt="we-open-pic">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="gallery__card">
+                                    <img src="images/cosmetic/5.jpg" alt="we-open-pic">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="gallery__card">
+                                    <img src="images/cosmetic/6.jpg" alt="we-open-pic">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+
+        <!--******************** Footer start ********************-->
+        <footer class="footer">
+            <section id="contacts" class="contacts wow fadeInLeft" data-wow-delay=".3s">
+                <div class="container">
+                    <h1 class="contacts__title">Приходите<span> в гости</span></h1>
+                    <h3 class="contacts__subtitle">Я всегда рада новым гостям</h3>
+                    <div class="contacts__wrapper">
+                        <div class="contacts__item">
+                            <h2 class="contacts__item-title"><i class="fa fa-phone" aria-hidden="true"></i> Телефон:
+                            </h2>
+                            <p class="contacts__item-subtitle">+375 29 843 56 66 (МТС)</p>
+                        </div>
+                        <div class="contacts__item">
+                            <h2 class="contacts__item-title"><i class="fa fa-map-marker" aria-hidden="true"></i> Адрес:
+                            </h2>
+                            <p class="contacts__item-subtitle">Проспект Партизанский 45,<br> 2 этаж (вход со стороны
+                                проспекта)</p>
+                        </div>
+                        <div class="contacts__item">
+                            <h2 class="contacts__item-title"><i class="fa fa-envelope" aria-hidden="true"></i> EMAIL:
+                            </h2>
+                            <p class="contacts__item-subtitle">cosmolab_olis@mail.ru</p>
+                        </div>
+                        <div class="contacts__item">
+                            <h2 class="contacts__item-title"><i class="fa fa-envelope" aria-hidden="true"></i> СОЦ.СЕТИ:
+                            </h2>
+                            <a target="_blank"
+                                href="https://www.instagram.com/cosmetolog_minsk_olga/?igshid=ekxzruaz5k7f"><i
+                                    class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a target="_blank" href="https://t.me/ollyth"><i class="fa fa-2x fa-telegram"
+                                    aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="maps__wrapper">
+                        <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa4fbf05c6ec873b5e032e5978881b0196c842db760e314e86d25175fa2026d8d&amp;width=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <!--******************** Footer end ********************-->
+    </div>
+    <!--******************** up button start ********************-->
+    <div class="up-button">
+        <div class="up-button__size" style="height: 80%;"></div>
+        <div class="up-button__inside">
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+        </div>
+    </div>
+    <!--******************** up button end ********************-->
+
+    <!--******************** script start ********************-->
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.wow.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+    <script src="js/jquery.owl.carousel.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/switch-buttons.js"></script>
+    <script src="https://kit.fontawesome.com/7c51dfb56c.js"></script>
+    <!--******************** script end ********************-->
+
+</body>
+
+</html>
