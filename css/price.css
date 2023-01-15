@@ -1,33 +1,33 @@
 /* Price style start */
 
 .price {
-	font-size     : 18px;
-	padding-top   : 60px;
+	font-size     : 20px;
+	padding-top   : 70px;
 	padding-bottom: 60px;
 	font-family   : 'Roboto', sans-serif;
-	font-weight   : 400;
+	font-weight   : 500;
 }
 
 .price__table {
-	margin-bottom: 60px;
+	margin-bottom: 70px;
 }
 
 .price__row-name div {
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .price__info-wrapper {
 	box-shadow   : 0px 1px 25px 0px rgba(0, 0, 0, 0.3);
-	border-radius: 5px;
+	border-radius: 6px;
 }
 
 .price__row-name {
 	display              : grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows   : 1fr;
-	font-size            : 16px;
+	font-size            : 18px;
 	color                : black;
-	margin-bottom        : 40px;
+	margin-bottom        : 50px;
 }
 
 .switch__button {
@@ -37,12 +37,12 @@
 }
 
 .price__row-name div {
-	border       : 1px transparent solid;
+	border       : 2px transparent solid;
 	text-align   : center;
-	padding      : 20px;
-	border-radius: 10px;
-	margin       : 5px;
-	box-shadow   : 0px 1px 25px 0px rgba(0, 0, 0, 0.3);
+	padding      : 30px;
+	border-radius: 20px;
+	margin       : 6px;
+	box-shadow   : 0px 2px 25px 0px rgba(0, 0, 0, 0.3);
 }
 
 .price__row-info {
