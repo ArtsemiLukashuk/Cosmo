@@ -4,18 +4,18 @@
 	display        : flex;
 	justify-content: space-between;
 	align-items    : center;
-	padding-top    : 40px;
-	font-weight    : 200;
-	font-size      : 18px;
+	padding-top    : 42px;
+	font-weight    : 250;
+	font-size      : 19px;
 }
 
 .header__list {
 	display        : flex;
 	justify-content: space-between;
-	width          : 700px;
+	width          : 600px;
 	align-items    : center;
-	font-weight    : 500;
-	font-size      : 22px;
+	font-weight    : 400;
+	font-size      : 20px;
 }
 
 
@@ -25,16 +25,16 @@
 }
 
 .header__logo p {
-	font-size              : 64px;
+	font-size              : 62px;
 	text-transform         : uppercase;
 	background             : radial-gradient(circle, rgba(235, 175, 200, 1) 0%, rgba(191, 97, 97, 0.8715861344537815) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-weight            : 900;
+	font-weight            : 800;
 }
 
 .header__logo span {
-	font-size              : 18px;
+	font-size              : 16px;
 	background             : radial-gradient(circle, rgba(235, 175, 200, 1) 0%, rgba(191, 97, 97, 0.8715861344537815) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -42,12 +42,12 @@
 }
 
 .header__text-wrapper {
-	font-size      : 24px;
+	font-size      : 22px;
 	display        : flex;
 	justify-content: space-between;
 	align-items    : center;
-	padding-top    : 60px;
-	padding-bottom : 60px;
+	padding-top    : 50px;
+	padding-bottom : 50px;
 }
 
 .header__text-wrapper p {
@@ -65,26 +65,26 @@
 }
 
 .header__left-wrapper {
-	order: 1;
-}
-
-.header__right-wrapper {
 	order: 2;
 }
 
+.header__right-wrapper {
+	order: 3;
+}
+
 .header__left-wrapper p {
-	font-size: 24px;
+	font-size: 22px;
 }
 
 .header__left-wrapper span img {
-	width       : 80px;
-	margin-right: 20px;
+	width       : 70px;
+	margin-right: 10px;
 }
 
 .header__left-wrapper span p {
 	display    : flex;
 	align-items: center;
-	font-size  : 34px;
+	font-size  : 32px;
 }
 
 .header__text-button,
@@ -106,7 +106,7 @@
 .header__text-button,
 .price__reg-button,
 .instagram__grallery-button {
-	background    : #ff97b3;
+	background    : #97cdff;
 	padding       : 25px 35px;
 	border-radius : 50px;
 	color         : white;
@@ -166,7 +166,7 @@
 }
 
 .header__pic:before {
-	width           : 140%;
+	width           : 120%;
 	top             : inherit;
 	left            : -20%;
 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), #ffffff 40%, rgba(255, 255, 255, 0.6) 60%, rgba(255, 255, 255, 0));
